@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="mug_test3" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="mug_test3s_assembly" assemblyId="ce7f6e10758e455a9ed4f2d8ceededee">
+<Part name="mug_test3" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.014426 0.872791 0.790996" rotation="AD: 0.9996225307608377 0.09611914529130515 -0.31319911650409127 212.517" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
