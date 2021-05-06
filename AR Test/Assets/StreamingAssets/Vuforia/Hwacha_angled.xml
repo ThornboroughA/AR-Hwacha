@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Hwacha_angled" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="Hwacha_angleds_assembly" assemblyId="97e48a2d65d84b3a9557ced999ee28dd">
+<Part name="Hwacha_angled" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0262788 0.0531039 0.268976" rotation="AD: 0.9863089201396695 0.2489052099382098 -0.9295904191006851 201.698" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

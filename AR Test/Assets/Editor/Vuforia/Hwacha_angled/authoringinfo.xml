@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="Hwacha_angled" targetId="38b9c330c2eb4430bcbc49b40880760e" version="11.1" toolVersion="9.8.5" bbox="-0.050000 -0.035774 -0.090597 0.050000 0.158529 0.035000" previewImage="38b9c330c2eb4430bcbc49b40880760e_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Hwacha_angleds_assembly" assemblyId="97e48a2d65d84b3a9557ced999ee28dd">
+<Part name="Hwacha_angled" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0262788 0.0531039 0.268976" rotation="AD: 0.9863089201396695 0.2489052099382098 -0.9295904191006851 201.698" image="Hwacha_angled_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
