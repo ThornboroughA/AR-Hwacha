@@ -4,17 +4,29 @@ using UnityEngine;
 
 public class TrackingTest : MonoBehaviour
 {
-    private bool modelActive = false;
-    [SerializeField] private GameObject testSphere = null;
+    public bool modelActive = false;
+
+    [SerializeField] private GameObject arrows = null;
+
+    public static TrackingTest instance;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("Another copy of TrackingTest found!");
+            return;
+        }
+        instance = this;
+    }
 
     private void Update()
     {
         if (modelActive)
         {
-            testSphere.SetActive(true);
+            arrows.SetActive(true);
         } else
         {
-            testSphere.SetActive(false);
+            arrows.SetActive(false);
         }
     }
 
