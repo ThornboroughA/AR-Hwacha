@@ -4644,3 +4644,991 @@ Total: 4.136874 ms (FindLiveObjects: 0.348090 ms CreateObjectMapping: 0.137681 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 3965.126255 seconds.
+  path: Assets/Hwacha/Prefab/Fire.prefab
+  artifactKey: Guid(1df63a7aa4f3b064ca0ea4091e7d1541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hwacha/Prefab/Fire.prefab using Guid(1df63a7aa4f3b064ca0ea4091e7d1541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfda796c5b83f074958beaf9976bc6a') in 0.026539 seconds
+  Import took 0.031780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Hwacha/Prefab/ParticleSystem.prefab
+  artifactKey: Guid(4b7e6dd6b99420c4c84f82b1f89a3556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hwacha/Prefab/ParticleSystem.prefab using Guid(4b7e6dd6b99420c4c84f82b1f89a3556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aa0b34e6b458c5843b159268b94966') in 0.002820 seconds
+  Import took 0.006060 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 2451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.3 MB.
+System memory in use after: 240.1 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 3644.
+Total: 4.178481 ms (FindLiveObjects: 0.329044 ms CreateObjectMapping: 0.124311 ms MarkObjects: 2.063438 ms  DeleteObjects: 1.660941 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 440.027761 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1532581a6f39f9760ed5bebc4d7bd7c1') in 0.575215 seconds
+  Import took 0.579681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1330e902992197300ee662d61c59e2cb') in 0.024273 seconds
+  Import took 0.028243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1153cf89ebeea3d0ac6ba1dd728b666a') in 0.608447 seconds
+  Import took 0.612052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/StandardCutout.mat
+  artifactKey: Guid(a9267223436693a4bb8e35161a24f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/StandardCutout.mat using Guid(a9267223436693a4bb8e35161a24f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed979b6899dc462666d36ecc1cac910') in 0.094349 seconds
+  Import took 0.097633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd29150773a2eccc94d37fa0b69acc') in 0.021065 seconds
+  Import took 0.024978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f87b2c20d999c8a674cfbc9800becd') in 0.033433 seconds
+  Import took 0.037521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb9abe088b03415d95acd7bff6c791') in 0.008490 seconds
+  Import took 0.012378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9650038c7efa1ce949b74c6d20cbcade') in 0.402305 seconds
+  Import took 0.406181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/ExampleAssets/Models/paintbucket_low.fbx
+  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34896b02e7b605d5eddbab62e594717') in 0.053635 seconds
+  Import took 0.057080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4596cb736ade7bfad4be0b6accf2f4') in 0.131629 seconds
+  Import took 0.135241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609d9f7f1c60882eff33618659a1b3fb') in 0.016236 seconds
+  Import took 0.019878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cabbe09de6bd896df9eecc3ef21c57') in 0.081844 seconds
+  Import took 0.085735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/VirtualButtonPreviewMaterial.mat
+  artifactKey: Guid(a88c225b69241164ab829bccf61d8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/VirtualButtonPreviewMaterial.mat using Guid(a88c225b69241164ab829bccf61d8845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ed5d8d221e1d59668415aeac849c41') in 0.014631 seconds
+  Import took 0.018163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4ed4ff4caebe7f7a7f61fd8b8bcda0') in 0.022739 seconds
+  Import took 0.026672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d9ca479a189b7264bc17eaed8c534d') in 0.014756 seconds
+  Import took 0.018560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937461b0e0b12cadec180c7b5393178f') in 0.014896 seconds
+  Import took 0.018629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0989d9cbacfd43d4dc5e5b4e1355e4a') in 0.085064 seconds
+  Import took 0.088965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be999fa57842e92caddff91272b95913') in 0.018136 seconds
+  Import took 0.021874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408832 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b081de3fe8ccb505f6d76af315e6ab9') in 0.878600 seconds
+  Import took 0.883450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe1c9611cd9c29f0e324509c7c20dcd') in 0.007401 seconds
+  Import took 0.011172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/MidAirReference.mat
+  artifactKey: Guid(2e9b38b0a13ba442b98571aeeb6f3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/MidAirReference.mat using Guid(2e9b38b0a13ba442b98571aeeb6f3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75382aaea9f40ccd10fc824f4174a1b4') in 0.282121 seconds
+  Import took 0.285766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_06.mat
+  artifactKey: Guid(f345250ec8ab04b088b4593654237824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_06.mat using Guid(f345250ec8ab04b088b4593654237824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7210ac42c0e1a6b02e4eab31b05cad21') in 0.038422 seconds
+  Import took 0.042131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Fonts/SourceSansPro.ttf
+  artifactKey: Guid(6e4a1744cf113994799d3e46a7c45d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Fonts/SourceSansPro.ttf using Guid(6e4a1744cf113994799d3e46a7c45d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aafb7f6f2c1feb7c800504709e62b9') in 1.901691 seconds
+  Import took 1.905893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/Material.asset
+  artifactKey: Guid(1cf75b9f786394e5d9220f159c4af175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/Material.asset using Guid(1cf75b9f786394e5d9220f159c4af175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc0551effc24b64ab590dd281edf244') in 0.071370 seconds
+  Import took 0.075109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13121cfab94007d8f78d550e84fb6f3f') in 0.378629 seconds
+  Import took 0.382288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_45.mat
+  artifactKey: Guid(56223934d27d641c18334ace1d3db702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_45.mat using Guid(56223934d27d641c18334ace1d3db702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dd1687889c50354f3e548fa9f6cb1a') in 0.008066 seconds
+  Import took 0.011726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_1011.mat
+  artifactKey: Guid(6c9cbf2cd68364892899fe05f3c3f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_1011.mat using Guid(6c9cbf2cd68364892899fe05f3c3f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd902e94f71674c137743f37dda3b9973') in 0.008535 seconds
+  Import took 0.012632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1063865d95d246646c56128cbbd0efb') in 0.402437 seconds
+  Import took 0.406359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_1113.mat
+  artifactKey: Guid(d085ed35c908a41a59eb7d379c9bd85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_1113.mat using Guid(d085ed35c908a41a59eb7d379c9bd85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532e551cd0870404e6343046f82d4b6e') in 0.007891 seconds
+  Import took 0.011988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/DepthMask.mat
+  artifactKey: Guid(36b1f386c1720c94889ac11ac9c8c6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/DepthMask.mat using Guid(36b1f386c1720c94889ac11ac9c8c6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244158eb540b0f52229ed8c0b9395f0') in 0.011589 seconds
+  Import took 0.015495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/Material.asset
+  artifactKey: Guid(0a62b5428df7e4dcba2afdb1d229d2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/Material.asset using Guid(0a62b5428df7e4dcba2afdb1d229d2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903470605836947fa05261da7a9776f5') in 0.008850 seconds
+  Import took 0.012660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_125.mat
+  artifactKey: Guid(196a2f923de8549dfbf6ac992b4cc936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_125.mat using Guid(196a2f923de8549dfbf6ac992b4cc936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b120e8a919572864cf37c28e4278cda') in 0.010021 seconds
+  Import took 0.013784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1111.mat
+  artifactKey: Guid(5fbc6fa52a65d4d4cbe5b47660f900ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1111.mat using Guid(5fbc6fa52a65d4d4cbe5b47660f900ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7705ab7a467da0768b2e54f859098243') in 0.008700 seconds
+  Import took 0.012864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6760d1708dce6cb91c0cd0b3404549a') in 0.039376 seconds
+  Import took 0.043586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e44387f1c8a1d595195aef07accd813') in 0.056817 seconds
+  Import took 0.060824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/ColoredLines.mat
+  artifactKey: Guid(bdaddec689357db4ea505c9f4c1b3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/ColoredLines.mat using Guid(bdaddec689357db4ea505c9f4c1b3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2c09827c303afc00780d216eeaa36e') in 0.044528 seconds
+  Import took 0.048451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cb88415ec2f0ef2667511243776761') in 0.037186 seconds
+  Import took 0.041682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_96.mat
+  artifactKey: Guid(c4969b65f11754303b9aec07252b9647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_96.mat using Guid(c4969b65f11754303b9aec07252b9647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269fa0790d08c366623c33da14ab2b77') in 0.008570 seconds
+  Import took 0.012248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/ExampleAssets/Materials/Hammer_Mat.mat
+  artifactKey: Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Hammer_Mat.mat using Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdace568dbe4a2aed5a50f38dda5982') in 0.062261 seconds
+  Import took 0.066199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/DefaultTarget.mat
+  artifactKey: Guid(30b97d537113d0441889f1559f555128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/DefaultTarget.mat using Guid(30b97d537113d0441889f1559f555128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffe7915d11c07fabbfdb18efe3dc950') in 0.010372 seconds
+  Import took 0.014444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4f721f6db648867282f199d4f266a3') in 0.085713 seconds
+  Import took 0.089820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_84.mat
+  artifactKey: Guid(8e13ba36ae955469b9162c6d012f6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_84.mat using Guid(8e13ba36ae955469b9162c6d012f6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e0ee602ca9d81009473a0a86c9f8a0') in 0.008216 seconds
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3e751f61d052e03ef5925a542d779c') in 0.372874 seconds
+  Import took 0.376550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1413.mat
+  artifactKey: Guid(5f1e8e842eb184acfa3262659de88c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1413.mat using Guid(5f1e8e842eb184acfa3262659de88c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0369de6d052191f7832a7d3edb370f09') in 0.009489 seconds
+  Import took 0.013411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_88.mat
+  artifactKey: Guid(96205fecfa5d84a6783b1d486abc0c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_88.mat using Guid(96205fecfa5d84a6783b1d486abc0c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a74c0d6d0df432130f5880cb77d3595') in 0.009531 seconds
+  Import took 0.013473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_73.mat
+  artifactKey: Guid(1c3378000f63546f8937e38e4edffd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_73.mat using Guid(1c3378000f63546f8937e38e4edffd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf1f48cdc6589fe8af01aed0a6788f2') in 0.008491 seconds
+  Import took 0.012341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c33c804ac6e0275b1918b3cd90c777f') in 0.062387 seconds
+  Import took 0.066097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_64.mat
+  artifactKey: Guid(3bd31b77f56d445b2a955d9ccbc2da98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_64.mat using Guid(3bd31b77f56d445b2a955d9ccbc2da98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8a4198c14658fc3488f1aa09f44da6') in 0.010866 seconds
+  Import took 0.014677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_52.mat
+  artifactKey: Guid(677c802c75fe0457dba9c099b7baedb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_52.mat using Guid(677c802c75fe0457dba9c099b7baedb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70118f059bcb7a8f0bc90cde62e3d270') in 0.009197 seconds
+  Import took 0.013206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_30.mat
+  artifactKey: Guid(05e406fe610a54f0893a622b99a15a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_30.mat using Guid(05e406fe610a54f0893a622b99a15a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fde6280d6f95b0403896672d01582b') in 0.008147 seconds
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_77.mat
+  artifactKey: Guid(ba36b22de392e42e6ab174467c038d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_77.mat using Guid(ba36b22de392e42e6ab174467c038d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616825a45cfa1c78d87e411d4e753013') in 0.009038 seconds
+  Import took 0.012877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_512.mat
+  artifactKey: Guid(57384b555497b493b9ffb3ba5caec6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_512.mat using Guid(57384b555497b493b9ffb3ba5caec6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ab24e2b72305e59e9322be7c9de571') in 0.008772 seconds
+  Import took 0.012678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_910.mat
+  artifactKey: Guid(c6758a68814ae4b60a60aae7143775cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_910.mat using Guid(c6758a68814ae4b60a60aae7143775cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4f07a800b6b028b61a96fbb2031e02') in 0.008361 seconds
+  Import took 0.012488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1310.mat
+  artifactKey: Guid(a4831648c5d914984b4114363588f068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1310.mat using Guid(a4831648c5d914984b4114363588f068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1607845d9ec3e562b6e3c665634e374') in 0.008267 seconds
+  Import took 0.012417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_03.mat
+  artifactKey: Guid(fc014c81fc52e4c20ad3d8f971514f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_03.mat using Guid(fc014c81fc52e4c20ad3d8f971514f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3f3caf24dd1e811c2327e6a904ad8') in 0.009346 seconds
+  Import took 0.013439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_1414.mat
+  artifactKey: Guid(e4c05679576f74fd6afc491663811591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_1414.mat using Guid(e4c05679576f74fd6afc491663811591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e4bc8497e87aa177841ebb5f3c7342') in 0.009886 seconds
+  Import took 0.014018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f0770b750c3c0b5851cea1288fb03b') in 0.021063 seconds
+  Import took 0.025062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_1314.mat
+  artifactKey: Guid(13cefaab1dfa048f28c206f56eca425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_1314.mat using Guid(13cefaab1dfa048f28c206f56eca425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a83ffaf339540438f78622934083c8') in 0.008616 seconds
+  Import took 0.012638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/VuforiaModels/mug_test2/mug_test2/Materials/Material.asset
+  artifactKey: Guid(d9c4d3fef4f3c468cb9d6e5ad6562b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/mug_test2/mug_test2/Materials/Material.asset using Guid(d9c4d3fef4f3c468cb9d6e5ad6562b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9d2f665348db58656b7042fd9fab54') in 0.009109 seconds
+  Import took 0.012965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/VuforiaModels/mug_test2/mug_test2/Materials/material_00.mat
+  artifactKey: Guid(fcf15dd5a3064487e8ab1c762a3a4cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/mug_test2/mug_test2/Materials/material_00.mat using Guid(fcf15dd5a3064487e8ab1c762a3a4cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790de357b43ef6d97a082607798e3cd8') in 0.010106 seconds
+  Import took 0.013971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ef5dd5ca916f1beaf31a960f64a01e') in 0.309734 seconds
+  Import took 0.313561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_94.mat
+  artifactKey: Guid(ae07697ff5e2b40d7b66bae54512e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_94.mat using Guid(ae07697ff5e2b40d7b66bae54512e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12475de1702c7ccb4c415c3d6bc3ed3b') in 0.008216 seconds
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1014.mat
+  artifactKey: Guid(8980fbff38105467681b404d888e09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_1014.mat using Guid(8980fbff38105467681b404d888e09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834887f3c97b6b0b62b6a96a69c45d0f') in 0.011274 seconds
+  Import took 0.015682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_21.mat
+  artifactKey: Guid(73bbc46f122944ed5ba0b9a9e44268ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_21.mat using Guid(73bbc46f122944ed5ba0b9a9e44268ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c3d6891a570067453277cee4cdd2e9') in 0.008781 seconds
+  Import took 0.013244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fac313364ef3bc970b50b57ed97904') in 0.020590 seconds
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_03.mat
+  artifactKey: Guid(efa571783e0b248e0b125bec829f7d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_03.mat using Guid(efa571783e0b248e0b125bec829f7d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d83fc3a8a0b6b0ac8f7af454f93fb3') in 0.008543 seconds
+  Import took 0.012349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_65.mat
+  artifactKey: Guid(7649d913d86f3435bb702aa546d83536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_65.mat using Guid(7649d913d86f3435bb702aa546d83536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ee4a63bb1c4397b9b28c55617df893') in 0.008312 seconds
+  Import took 0.012451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/Material.asset
+  artifactKey: Guid(017d764cfdd6d41e89ee40b395b9ba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/Material.asset using Guid(017d764cfdd6d41e89ee40b395b9ba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13d09984371614a8bfe3689519d2b62') in 0.008144 seconds
+  Import took 0.012002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_20.mat
+  artifactKey: Guid(2e19c76a0e8ea467391ce3e2d922d7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_20.mat using Guid(2e19c76a0e8ea467391ce3e2d922d7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa376b7d4aa8c38824b78012d2dbe1c') in 0.008163 seconds
+  Import took 0.011805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b279c02436447be403952e1bb0d10793') in 0.019273 seconds
+  Import took 0.023294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_18.mat
+  artifactKey: Guid(9c5df0c884a844223ba5097212d8855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_18.mat using Guid(9c5df0c884a844223ba5097212d8855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d730b7fd294914b5d205ff564f37284') in 0.008998 seconds
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_132.mat
+  artifactKey: Guid(d595dfed982ff403287326a9bdbfc680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_132.mat using Guid(d595dfed982ff403287326a9bdbfc680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9c41e7654f24bcfa491e158f479da5') in 0.009984 seconds
+  Import took 0.013647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_109.mat
+  artifactKey: Guid(e386c6e18c7ba49379e4ec970dba2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_109.mat using Guid(e386c6e18c7ba49379e4ec970dba2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4787d8ec4216ae421f49132aa98ace67') in 0.008880 seconds
+  Import took 0.013163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/MidAirIndicator.mat
+  artifactKey: Guid(658ef14483bb4437baeced0fce0ae78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/MidAirIndicator.mat using Guid(658ef14483bb4437baeced0fce0ae78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8e9b3de24b5510efb46b79cf3fbfeb') in 0.107870 seconds
+  Import took 0.112260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4c2d0ffca9f93ca3949976f6074808') in 0.033729 seconds
+  Import took 0.037680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82af9fc91eff0a989d0cce0f6e3cd61') in 0.057140 seconds
+  Import took 0.060766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/GuideView2D.mat
+  artifactKey: Guid(ab44b980790e31f4c84c4c91cdab449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/GuideView2D.mat using Guid(ab44b980790e31f4c84c4c91cdab449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecfcd7932b591a0217f7e31f4287d20') in 0.008816 seconds
+  Import took 0.012577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_49.mat
+  artifactKey: Guid(e277ba5f77fe74d4fbf4ce8f1bb5531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_49.mat using Guid(e277ba5f77fe74d4fbf4ce8f1bb5531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c2d36df07b714d7eb46963fd1b952f') in 0.008620 seconds
+  Import took 0.012757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a71c62cb6a39b6b9fb3a7e4c3ca11fa') in 0.041697 seconds
+  Import took 0.045367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_39.mat
+  artifactKey: Guid(1717262d72a9d463bbf946ebe9761a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_39.mat using Guid(1717262d72a9d463bbf946ebe9761a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fcc79857b345555b00794df41a840f') in 0.009089 seconds
+  Import took 0.012714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/GroundPlaneIndicator.mat
+  artifactKey: Guid(1d214ea2059394d59a1960df0cad1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/GroundPlaneIndicator.mat using Guid(1d214ea2059394d59a1960df0cad1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d4f978284a9252a5fedc8047cdfa3') in 0.230125 seconds
+  Import took 0.233650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/CloudRecoTarget.mat
+  artifactKey: Guid(de1593a16346ab045974f1cd34fd831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/CloudRecoTarget.mat using Guid(de1593a16346ab045974f1cd34fd831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bc664550203678465864c8ec524ca7') in 0.016265 seconds
+  Import took 0.019836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_37.mat
+  artifactKey: Guid(23493cc733c2e49a39a2926d9077e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_37.mat using Guid(23493cc733c2e49a39a2926d9077e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720f9f714eb67db23f10c87edb08652c') in 0.008723 seconds
+  Import took 0.012947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/OutlineOpaque.mat
+  artifactKey: Guid(1d25c0ce72e58124fa2d482e07c9fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/OutlineOpaque.mat using Guid(1d25c0ce72e58124fa2d482e07c9fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71f9165ce0daab2fa134b819cf19188') in 0.012070 seconds
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_47.mat
+  artifactKey: Guid(13c8edea45f2c467e95d019e6c76e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_47.mat using Guid(13c8edea45f2c467e95d019e6c76e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc05f48c950b513fb41e98700b418b49') in 0.008613 seconds
+  Import took 0.012691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Resources/VuforiaModels/mug_test3/mug_test3/Materials/Material.asset
+  artifactKey: Guid(9274b179704cd4f2ab92bf5f554fedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/mug_test3/mug_test3/Materials/Material.asset using Guid(9274b179704cd4f2ab92bf5f554fedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846b85307537f2bc2a5dbb16cda48a4') in 0.011556 seconds
+  Import took 0.015791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/GroundPlaneReference.mat
+  artifactKey: Guid(b0fca12d4e61246cfa5f9a6d26e48004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/GroundPlaneReference.mat using Guid(b0fca12d4e61246cfa5f9a6d26e48004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f278d4d9d6a62f47ae74ea2e8a02a71') in 0.236975 seconds
+  Import took 0.242134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_111.mat
+  artifactKey: Guid(c1a05c304852c4a37a1a838516a8f636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_111.mat using Guid(c1a05c304852c4a37a1a838516a8f636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eeba2b374f060ec3da7b1f1dd15709') in 0.009290 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_18.mat
+  artifactKey: Guid(6a23d25ef11134ca09ddd17b3c3adca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_18.mat using Guid(6a23d25ef11134ca09ddd17b3c3adca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236e04b3ee998258eeaa40365377e822') in 0.008550 seconds
+  Import took 0.012399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_512.mat
+  artifactKey: Guid(2908e0154ce3b4fdcbf9eca6723ea82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_512.mat using Guid(2908e0154ce3b4fdcbf9eca6723ea82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec5aded37c00676f11f9a1ab3a2039') in 0.008424 seconds
+  Import took 0.012083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_1212.mat
+  artifactKey: Guid(bddc62837f84944bdb5c16fa26540aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_1212.mat using Guid(bddc62837f84944bdb5c16fa26540aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44987f1292fd9ee623967fd8d14a054') in 0.009346 seconds
+  Import took 0.012975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Resources/VuforiaModels/mug_test3/mug_test3/Materials/material_00.mat
+  artifactKey: Guid(1cb90bf92c8b04c24ae9fce54a57c9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/mug_test3/mug_test3/Materials/material_00.mat using Guid(1cb90bf92c8b04c24ae9fce54a57c9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f99e3a628a5cdc71bede810df9366f7') in 0.009503 seconds
+  Import took 0.013104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_70.mat
+  artifactKey: Guid(d1718630205ce43a9b1b3b43e74dd374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_70.mat using Guid(d1718630205ce43a9b1b3b43e74dd374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf219e14295d3fadc0bb1abb4764f8c4') in 0.007601 seconds
+  Import took 0.011672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_146.mat
+  artifactKey: Guid(c721ba09a13b649129d13c1b69b074b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/Hwacha_angled/Hwacha_angled/Materials/material_146.mat using Guid(c721ba09a13b649129d13c1b69b074b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a22b749a8b90e1990ed0c24a64db24') in 0.007865 seconds
+  Import took 0.011689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2aede3c700ef95e14c95fdf7abb73f') in 0.057490 seconds
+  Import took 0.061094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa7caeb0afb6ba44ea8074f2d257ec0') in 0.040739 seconds
+  Import took 0.044242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_61.mat
+  artifactKey: Guid(24e1c6e5752c14be397a9f4d1ee9a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_61.mat using Guid(24e1c6e5752c14be397a9f4d1ee9a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f587a634e5a8b99cac2c5d5f96c91e71') in 0.009987 seconds
+  Import took 0.013828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_210.mat
+  artifactKey: Guid(b7836b2c6c7b64502ad191c22a29ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_210.mat using Guid(b7836b2c6c7b64502ad191c22a29ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86020dc9b2792bcac0a97ca2cebd5b86') in 0.008210 seconds
+  Import took 0.012213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee25efe14a1b839a6fcf6b3e9f9f1ab7') in 0.058279 seconds
+  Import took 0.062490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e869d7689545ed69b12434df28b652') in 0.032417 seconds
+  Import took 0.037108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_121.mat
+  artifactKey: Guid(4f25a9a802fa542af82dc0efe2c539c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_121.mat using Guid(4f25a9a802fa542af82dc0efe2c539c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f527b54719cb897b122e7bcd8ceb61c8') in 0.010694 seconds
+  Import took 0.031183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_1113.mat
+  artifactKey: Guid(afc28d16546d2403db5161185004b74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest/HwachaTest/Materials/material_1113.mat using Guid(afc28d16546d2403db5161185004b74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a4698255e67d1dfb0cd990c40e2196') in 0.017456 seconds
+  Import took 0.022127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_82.mat
+  artifactKey: Guid(645fcded882394279ac2bca82fdc458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaModels/HwachaTest_2/HwachaTest_2/Materials/material_82.mat using Guid(645fcded882394279ac2bca82fdc458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bc12cfe011f9f38ca2d9fa52a2aead') in 0.007684 seconds
+  Import took 0.011922 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 2451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.3 MB.
+System memory in use after: 251.1 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 3.902443 ms (FindLiveObjects: 0.348907 ms CreateObjectMapping: 0.094515 ms MarkObjects: 1.934835 ms  DeleteObjects: 1.523554 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
