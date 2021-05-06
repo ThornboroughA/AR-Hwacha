@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="HwachaTest" motionHint="static" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="HwachaTests_assembly" assemblyId="e960c7faf5264849b797bc205cc76a68">
+<Part name="HwachaTest" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.021807 0.0649053 0.341371" rotation="AD: 0.9961434934099391 0.1810800389108033 -0.5861341723184672 209.476" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

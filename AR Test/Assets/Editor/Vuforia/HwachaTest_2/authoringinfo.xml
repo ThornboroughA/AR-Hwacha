@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="HwachaTest_2" targetId="9f8fff189de142de9436cea2a6f4e944" version="11.1" toolVersion="9.8.5" bbox="-0.050000 0.000000 -0.114946 0.050000 0.140654 0.065054" previewImage="9f8fff189de142de9436cea2a6f4e944_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="HwachaTest_2s_assembly" assemblyId="fd73666dbfea4b54be5ce092c2b4d2bf">
+<Part name="HwachaTest_2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0215219 0.0664452 0.318999" rotation="AD: 0.996979700651549 0.16240200692091736 -0.5712608628693998 207.45" image="HwachaTest_2_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="0.0181629 0.0560359 0.353357" rotation="AD: 0.997098712106617 -0.21442376806960312 0.43071581977912576 228.299" image="HwachaTest_2_viewpoint_0001.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-0.0138499 0.0663893 0.276425" rotation="AD: 0.9999778606053988 -0.023006244648815507 -0.3030907878899875 171.692" image="HwachaTest_2_viewpoint_0002.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

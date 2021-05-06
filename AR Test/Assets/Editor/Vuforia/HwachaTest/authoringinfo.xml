@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="HwachaTest" targetId="af957e81832b4a1c88c932c660f6a346" version="11.1" toolVersion="9.8.5" bbox="-0.050000 0.000000 -0.114946 0.050000 0.140654 0.065054" previewImage="af957e81832b4a1c88c932c660f6a346_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="HwachaTests_assembly" assemblyId="e960c7faf5264849b797bc205cc76a68">
+<Part name="HwachaTest" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.021807 0.0649053 0.341371" rotation="AD: 0.9961434934099391 0.1810800389108033 -0.5861341723184672 209.476" image="HwachaTest_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
