@@ -7,6 +7,7 @@ public class TrackingTest : MonoBehaviour
     public bool modelActive = false;
 
     [SerializeField] private GameObject arrows = null;
+    [SerializeField] private GameObject fireButton = null;
 
     public static TrackingTest instance;
     private void Awake()
@@ -24,9 +25,11 @@ public class TrackingTest : MonoBehaviour
         if (modelActive)
         {
             arrows.SetActive(true);
+            fireButton.SetActive(true);
         } else
         {
             arrows.SetActive(false);
+            fireButton.SetActive(false);
         }
     }
 

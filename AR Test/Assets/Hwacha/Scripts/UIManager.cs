@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
     private bool eng, info;
     public GameObject infoPanel, infoButton,
                         korText, engText;
+
+
     void Start()
     {
         eng = true;

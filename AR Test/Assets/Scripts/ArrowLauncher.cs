@@ -5,33 +5,48 @@ using UnityEngine;
 public class ArrowLauncher : MonoBehaviour
 {
 
+    
+
     [SerializeField] private GameObject[] arrows = null;
     [SerializeField] private GameObject[] arrowFire = null;
     [SerializeField] private GameObject[] arrowSmoke = null;
 
     [SerializeField] private Animator arrowAnim = null;
 
+    [SerializeField] private AudioClip[] rocketSounds = null;
+    private AudioSource audioSource;
+
     private Coroutine firingRoutine;
     private bool coroutineActive = false;
 
-
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void Update()
     {
 
-      if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (TrackingTest.instance.modelActive == true)
+            
+            TryActivate();
+        }
+    }
+
+    public void TryActivate()
+    {
+        print("try");
+        if (TrackingTest.instance.modelActive == true)
             {
-                print("register input");
+                //print("register input");
                 ActivateArrows();
             }
             else
             {
-                print("model inactive");
+                //print("model inactive");
             }
-        }
-
+        
     }
 
 
@@ -61,8 +76,25 @@ public class ArrowLauncher : MonoBehaviour
         coroutineActive = false;
     }
 
+    private IEnumerator RocketSounds()
+    {
+        yield return new WaitForSeconds(1.3f);
+
+        int count = 10;
+
+        while (count > 0)
+        {
+            print("fire sound");
+            int ran = Random.Range(0, rocketSounds.Length);
+            audioSource.PlayOneShot(rocketSounds[ran]);
+            count--;
+            yield return new WaitForSeconds(Random.Range(0.08f, 0.2f));
+        }
+    }
+
     private void StartAnimation()
     {
+        StartCoroutine(RocketSounds());
         arrowAnim.SetInteger("arrowState", 1);
     }
     private void ResetAnimation()
